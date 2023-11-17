@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.home-background {
+  position: absolute;
+  top: calc(50% + 465px);
+  left: calc(50% + 800px);
+  background: linear-gradient(214.73deg, #f7cf46, #ef853b);
+  width: 100%;
+  height: 100%;
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+}
+
+.gradient-overlay {
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0.8)
+    ),
+    linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.8));
+  width: 100%;
+  height: 120px;
+}
+.container {
+  position: relative;
+}
+
+.frame-child {
+  position: absolute;
+  top: 15px;
+  left: 530.6px;
+  width: 1069.4px;
+  height: 829.3px;
+  opacity: 0.5;
+}
+
+.banner-person {
+  position: absolute;
+  align-self: self-end;
+  width: 500px;
+  height: auto;
+  top: 60px;
+  right: -10px;
+}
+.video-content {
+  position: absolute;
+  top: 164px;
+  right: 500px;
+}
+.watch_video {
+  position: absolute;
+  width: 400px;
+  height: auto;
+}
+.text-boldness {
+  font-weight: 600;
+  font-family: Sora;
+}
+.custom-font {
+  font-family: Sora;
+}
+button.btn:hover {
+  border-color: orange;
+}
+
+.scrollable-div {
+  max-height: 700px;
+  overflow-y: scroll;
+  padding-right: 15px;
+}
+.scrollable-div::-webkit-scrollbar {
+  display: none;
+}
